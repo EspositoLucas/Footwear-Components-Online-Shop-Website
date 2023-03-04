@@ -30,7 +30,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
-                        <a class="navbar-brand" href="index.php"><img src="fabrica/logo_fondos.jpg" alt="..." width = "50" heigh="50" ></a>
+                        <a class="navbar-brand" href="https://webfabrica.000webhostapp.com/"><img src="fabrica/logo_fondos.jpg" alt="..." width = "50" heigh="50" ></a>
                         <a href="#" class="nav-link text-info" category="all">Todo</a>
                         <?php
                         $query = mysqli_query($conexion, "SELECT * FROM categorias");
